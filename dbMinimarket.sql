@@ -1,0 +1,14 @@
+SHOW DATABASES;
+
+/*Poner en uso base de datos*/
+USE dbmimarket;
+/*Crear tabla*/
+CREATE TABLE VENDEDOR(
+    CODVEND CHAR(6),
+    NOMBVEND VARCHAR(50),
+    APEVEND VARCHAR(80),
+    DOCVEND VARCHAR(10),
+    CELVEND CHAR(9),
+    DOMVEND VARCHAR(80),
+    PRIMARY KEY(CODVEND) 
+);
